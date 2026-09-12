@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 
 <head>
   <title>Taman Baca</title>
@@ -18,37 +19,45 @@
   Semua test akan merah di awal. Itu memang seharusnya.
 -->
 
-  <div class="header">
-    <div class="judul-besar">Taman Baca RW 04</div>
-    <div class="menu">
+  <header>
+    <h1 class="judul-besar">Taman Baca RW 04</h1>
+    <nav>
       <a href="#koleksi">Koleksi</a>
       <a href="#jadwal">Jadwal</a>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <div class="isi">
+  <main>
 
-    <div class="sub">Tentang Kami</div>
+    <h2 class="sub">Tentang Kami</h2>
     Taman Baca RW 04 dibuka untuk warga sejak 2019.
 
-    <div class="sub">Jam Buka</div>
-    Senin - Jumat: 15.00 - 20.00<br><br>
-    Sabtu: 09.00 - 17.00<br><br>
-    Minggu: tutup
+    <h2 class="sub">Jam Buka</h2>
+      <p>
+        <ul>
+        <li>Senin - Jumat: 15.00 - 20.00</li>
+        <li>Sabtu: 09.00 - 17.00</li>
+        <li>Minggu: tutup</li>
+        </ul>
+      </p>
 
-    <div class="sub">Koleksi</div>
-    <img src="rak.jpg">
-    <img src="garis.png">
+    <h2 class="sub">Koleksi</h2>
+    <img src="rak.jpg" alt="rak buku di sini">
+    <img src="garis.png" alt="">
 
     <table>
+      <thead>
+        <tbody>
       <tr>
-        <td>Kategori</td>
-        <td>Jumlah</td>
+        <th scope="col">Kategori</th>
+        <th scope="col">Jumlah</th>
       </tr>
+      </thead>
       <tr>
         <td>Novel</td>
         <td>320</td>
       </tr>
+      </tbody>
     </table>
 
     <div class="berita">
@@ -59,13 +68,13 @@
       Jadwal mendongeng bulan ini setiap Sabtu pagi.
     </div>
 
-    <a href="https://maps.google.com">klik di sini</a>
+    <a href="https://maps.google.com" rel="noopener">lihat lokasi taman baca di google maps</a>
 
-  </div>
+  </main>
 
-  <div class="footer">
+  <footer>
     Taman Baca RW 04
-  </div>
+  </footer>
 
 </body>
 
